@@ -1,0 +1,50 @@
+header{
+	background: url("../images/banner.jpg") no-repeat center;
+	background-size: cover ;
+	position: relative;
+	height: 1000px;
+}
+.bg-dark{
+	background-color: #000;
+}
+.bg-purple{
+	background-color: #aa15b6;
+}
+.bg-transparent{
+	background: transparent;
+}
+header .navbar-default{
+	background-color: transparent; 
+    border-color: transparent;
+    padding-top: 40px;
+}
+.text-special{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff!important;
+}
+
+
+.navbar-default ul li  a{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 29.17px;
+
+}
+.navbar-default ul li a:last-child{
+	padding-right: 20px;
+}
+header .jumbotron h1{
+	font-size: 62.5px;
+}
+header .jumbotron p{
+	color: #fff !important;
+	font-size: 25px;
+	font-weight: 2px;
+}
+header .jumbotron p>a.btn{
+	padding: 15px 64px;
+	background-color: #d4d0f3;
+	color: #100667;
+	border-radius: 0;
+}
